@@ -39,10 +39,11 @@
   border-radius: 10px;
   max-width: 100%;
   height: auto;
+  transition: transform 1s ease 0s;
 }
 
 #image:hover {
-  transform: scale(1.5);
+  transform: scale(1.15);
 }
 
 #img-caption {
