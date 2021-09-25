@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+#main {
+  background-color: #eee;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'poppins', sans-serif ;
+}
+
+#title {
+  font-family: 'roboto slab', sans-serif;
+  font-size: 36px;
+}
+
+#sub-title {
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px 50px 30px 50px;
+  border-radius: 10px;
+}
+
+#image {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+#image:hover {
+  transform: scale(1.5);
+}
+
+#img-caption {
+  font-size: 14px;
+  text-align: center;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+#discography{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#discography h3 {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+#discography li {
+  margin: 8px;
+}
+
+#tribute-link {
+  color: #7F2EE7;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
